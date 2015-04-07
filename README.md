@@ -1,5 +1,5 @@
 # java-dropwizard-template
-A simple Java DropWizard application template for simple coding with support for:
+A simple Java DropWizard application template for IntelliJ IDEA with support for:
 
 - Dropwizard
 - Postgres
