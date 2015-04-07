@@ -1,0 +1,9 @@
+db:
+  image: postgres:latest
+  ports:
+    - "5432:5432"
+
+dbtest:
+  image: postgres:latest
+  ports:
+    - "35432:5432"

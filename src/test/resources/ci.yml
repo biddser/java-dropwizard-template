@@ -1,0 +1,21 @@
+database:
+  driverClass: org.postgresql.Driver
+  user: postgres
+  password: 1
+  url: jdbc:postgresql://localhost:5432/postgres
+
+databaseName: postgresql
+
+server:
+  applicationConnectors:
+  - type: http
+    port: 3003
+  adminConnectors:
+  - type: http
+    port: 3004
+
+logging:
+  level: INFO
+  loggers:
+    "com": DEBUG
+    "org.skife.jdbi.v2": TRACE

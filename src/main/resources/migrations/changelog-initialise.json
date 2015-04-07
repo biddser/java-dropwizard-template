@@ -1,0 +1,11 @@
+{
+  "databaseChangeLog": [
+    {
+      "changeSet": {
+        "id": "1001",
+        "author": "author",
+        "changes": []
+      }
+    }
+  ]
+}
